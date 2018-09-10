@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>La Smaja</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+	<link rel="stylesheet" href="style.css">
+	<!-- Include in <head> to load fonts from Google -->
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Inconsolata|Permanent+Marker" rel="stylesheet">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	<header class="header clearfix">
+		<a href="index.html" class="header__logo">la smaja</a>
+		<a href="" class="header__icon-bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<ul class="header__menu animate">
+			<li class="header__menu__item"><a href="index.html">HOME</a></li>
+			<li class="header__menu__item"><a href="single.html">ABOUT</a></li>
+			<li class="header__menu__item"><a href="page.html">WORK</a></li>
+		</ul>
+	</header>
+
+	<section class="cover__single">
+		<div class="cover__filter__single"></div>
+		<div class="cover__caption__single">
+			<div class="cover__caption__copy">
+				<h1 class="h1">Mi chiamo Gaia Majoni, per gli amici Smaja</h1>
+      </div>
+		</div>
+	</section>
+
+
+	<article class="panel">
+		<div class="panel__copy">
+			<h2 class="panel__copy__title">un po' di info</h2>
+			<p class="p">Mi chiamo Gaia Majoni, per gli amici, la Smaja.</p>
+			<p class="p">Sono nata a Milano il 9 Gennaio del ’97 ma sono cresciuta in un piccolo paesino sul Lago Maggiore. Sin da piccola ho sempre disegnato molto e ho manifestato una passione per la fotografia (memorabili sono le foto agli stendini di casa, ai gatti, ai tramonti visti attraverso una ringhiera).</p>
+			<p class="p">Così crescendo ho deciso di frequentare il Liceo Artistico dove ho sperimentato quello che più mi piaceva e stimolava finendo così nell’ambito multimediale e audiovisivo. </p>
+			<p class="p">Successivamente ho deciso di completare i miei studi presso il Politecnico di Milano dove sto attualmente studiando Design della Comunicazione.</p>
+			<p class="p">Dopo il diploma ho deciso di iscrivermi a un corso di Grafica e Web Design con conseguente stage dove ho approfondito il lato grafico realizzando flyer per JustCavalli e Hollywood e banner per Marionnaud oltre che loghi per privati.</p>
+      <p class="p">Durante l’estate mi occupo di realizzare un laboratorio artistico per i ragazzi del centro comunale e da quest’anno anche un laboratorio fotografico. Oltre a questo, durante tutto l’anno, mi piace molto lavorare con le immagini e con il video aiutando amici a realizzare cortometraggi oppure creando flyer per eventi locali.</p>
+		</div>
+	</article>
+
+
+	<section class="cards clearfix">
+		<div class="card__single">
+			<img class="card__single__image"src="1s.jpg" alt="Piccola Gaia">
+			<div class="card__single__copy">
+				<h2 class="card_single_font">classe 1997//gaia altalena style</h2>
+			</div>
+		</div>
+
+		<section class="cards clearfix">
+			<div class="card__single">
+				<img class="card__single__image"src="2s.jpg" alt="Gaia a 21 anni">
+				<div class="card__single__copy">
+					<h2 class="card_single_font">03/05/2018 --->AAAnanasss</h2>
+				</div>
+			</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+	 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+			});
+	 });
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>La Smaja</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+	<link rel="stylesheet" href="style.css">
+	<!-- Include in <head> to load fonts from Google -->
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Inconsolata|Permanent+Marker" rel="stylesheet">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+
+	<header class="header clearfix">
+		<a href="index.html" class="header__logo">la smaja</a>
+		<a href="" class="header__icon-bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<ul class="header__menu animate">
+			<li class="header__menu__item"><a href="index.html">HOME</a></li>
+			<li class="header__menu__item"><a href="single.html">ABOUT</a></li>
+			<li class="header__menu__item"><a href="page.html">WORK</a></li>
+		</ul>
+	</header>
+
+	<section class="cards clearfix">
+
+		<div class="card">
+			<img class="card__image"src="1a.jpg">
+			<div class="card__copy">
+				<a href="#delle_foto"> <h3 class="h3">delle foto</h3> </a>
+				<p class="p">Nelle foto che scatto c’è sempre una storia, un’idea. Scatto un po’ per gioco e un po’ per ricordare gli amici che mi circondano, i luoghi che visito, le esperienze che raccolgo. Mi piace raccontare con le immagini il bello che mi circonda e sperimentare tecniche fotografiche, dall’analogico, alle polaroid al digitale con il quale mi diverto nella post produzione.</p>
+			</div>
+		</div>
+
+		<div class="card">
+			<img class="card__image"src="2ab.jpg" >
+			<div class="card__copy">
+				<a href="#dei_disegni"> <h3 class="h3">dei disegni</h3> </a>
+				<p class="p">Quando disegno lo faccio in modo naturale e istintivo. I miei soggetti preferiti sono gli esseri umani, i volti in particolare. Disegno principalmente su carta usando principalmente una bic e acquerelli. Da poco ho iniziato a usare la tavoletta grafica applicata a Illustrator, sia per curiosità personale che per progetti universitari.</p>
+			</div>
+		</div>
+		<div class="card">
+			<img class="card__image"src="copec.jpg">
+			<div class="card__copy">
+				<a href="#dei_progetti"> <h3 class="h3">dei progetti</h3> </a>
+				<p class="p">I progetti che ci sono, sono quelli che più mi hanno stimolato. In primis un lavoro sul razzismo e le differenze di genere dove abbiamo realizzato una rivista che mostra la vita nei quartieri multietnici di Milano e le loro sfaccettature. L’altro progetto sono dei frame di un video di animazione che vede la rivisitazione di al quadro Il bar delle Folies di Manet.  </p>
+			</div>
+		</div>
+	</section>
+
+	<section class="photo" id="delle_foto">
+		<div class="photo__conteiner">
+		<img class="photo__photo" src="1a.jpg" alt="">
+		<img class="photo__photo" src="8a.jpg" alt="">
+		<img class="photo__photo" src="3a.jpg" alt="">
+		<img class="photo__photo" src="4a.jpg" alt="">
+		<img class="photo__photo" src="2a.jpg" alt="">
+		<img class="photo__photo" src="11a.jpg" alt="">
+		<img class="photo__photo" src="7a.jpg" alt="">
+		<img class="photo__photo" src="13a.jpg" alt="">
+		<img class="photo__photo" src="21a.jpg" alt="">
+		<img class="photo__photo" src="9a.jpg" alt="">
+		<img class="photo__photo" src="10a.jpg" alt="">
+		<img class="photo__photo" src="6a.jpg" alt="">
+		<img class="photo__photo" src="12a.jpg" alt="">
+		<img class="photo__photo" src="5a.jpg" alt="">
+		<img class="photo__photo" src="14a.jpg" alt="">
+		<img class="photo__photo" src="18a.jpg" alt="">
+		<img class="photo__photo" src="19a.jpg" alt="">
+		<img class="photo__photo" src="20a.jpg" alt="">
+		<img class="photo__photo" src="15a.jpg" alt="">
+		<img class="photo__photo" src="16a.jpg" alt="">
+		<img class="photo__photo" src="17a.jpg" alt="">
+	</div>
+	</section>
+
+	<section class="photo_2" id="dei_disegni">
+		<div class="photo__conteiner_2">
+					<img class="photo__photo_2" src="1b.jpg" alt="">
+					<img class="photo__photo_2" src="2b.jpg" alt="">
+					<img class="photo__photo_2" src="4b.jpg" alt="">
+					<img class="photo__photo_2" src="3b.jpg" alt="">
+					<img class="photo__photo_2" src="6b.jpg" alt="">
+					<img class="photo__photo_2" src="5b.jpg" alt="">
+	</div>
+	</section>
+
+	<section class="photo_2" id="dei_progetti">
+		<div class="photo__conteiner_2">
+					<img class="photo__photo_2" src="1c.jpg" alt="">
+					<img class="photo__photo_2" src="2c.jpg" alt="">
+					<img class="photo__photo_2" src="3c.jpg" alt="">
+					<img class="photo__photo_2" src="4c.jpg" alt="">
+					<img class="photo__photo_2" src="5c.jpg" alt="">
+					<img class="photo__photo_2" src="6c.jpg" alt="">
+	</div>
+
+		<div class="photo__conteiner_2">
+					<img class="photo__photo_2" src="1d.jpg" alt="">
+					<img class="photo__photo_2" src="2d.jpg" alt="">
+					<img class="photo__photo_2" src="3d.jpg" alt="">
+					<img class="photo__photo_2" src="4d.jpg" alt="">
+					<img class="photo__photo_2" src="5d.jpg" alt="">
+					<img class="photo__photo_2" src="6d.jpg" alt="">
+	</div>
+	</section>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+	 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+			});
+	 });
+</script>
+
+
+</body>
+</html>
